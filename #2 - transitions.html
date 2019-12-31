@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Helvetica;
+            color: white;
+        }
+        body{
+            background-color: dodgerblue;
+        }
+        .content{
+            font-size: bold;
+            background-color: salmon;
+            width: 100px;
+            height: 100px;
+            margin: 10% auto;
+            position: relative;
+            text-align: center;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .text{
+            padding: 40px 0;
+            transition: background 0.6s, transform 0.6s;
+        }
+        .text:hover{
+            background-color: crimson;
+            transform: rotate(360deg);
+             
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="text">Hover me</div>
+    </div>
+</body>
+</html>
